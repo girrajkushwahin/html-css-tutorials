@@ -1,0 +1,30 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    width: 20%;
+    height: 20vh;
+    background-color: red;
+
+    /* border-width: 5px; */
+    /* border-color: black; */
+    /* border-style: solid; */
+
+    border: 5px solid black;
+    /* border: 5px dashed black; */
+    /* border: 5px double black; */
+    /* border: 5px dotted black; */
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: upper-roman; */
+    list-style-type: lower-roman;
+}

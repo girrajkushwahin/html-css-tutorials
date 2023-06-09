@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    /* font-variant: small-caps; */
+    /* font-size: 35px; */
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    font-weight: lighter;
+
+    color: red;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    /* direction: rtl; */
+    /* direction: ltr; */
+    /* text-indent: 10px; */
+    /* text-align: left; */
+    /* text-align: right; */
+    text-align: center;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: blue;
+}
