@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.father {
+    width: 600px;
+    height: 300px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.child1 {
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+}
+
+.child2 {
+    width: 100px;
+    height: 60px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+}
+
+.child3 {
+    width: 100px;
+    height: 60px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+}
+
+.child4 {
+    width: 100px;
+    height: 60px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.parent {
+    width: 600px;
+    height: 300px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.boy1 {
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    z-index: 5;
+}
+
+.boy2 {
+    width: 100px;
+    height: 60px;
+    background-color: blue;
+    position: absolute;
+    z-index: 2;
+}
+
+.boy3 {
+    width: 100px;
+    height: 60px;
+    background-color: green;
+    position: absolute;
+    z-index: 1;
+}
+
+.boy4 {
+    width: 100px;
+    height: 60px;
+    background-color: yellow;
+    position: absolute;
+}
