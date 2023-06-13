@@ -8,6 +8,6 @@ p {
     height: 100px;
     border: 2px solid black;
     /* overflow: hidden; */
-    /* overflow: auto; */
+    overflow: auto;
     /* overflow: scroll; */
 }
